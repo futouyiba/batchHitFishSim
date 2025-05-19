@@ -1,0 +1,61 @@
+# ReadMe
+# xlsx 为开发模板文件夹，配置文件都
+# 配置的其它都为渠道
+locale = "zh-cn" # zh-tw, en, jp, kr ...
+
+compressSliceMap = true # 是否压缩slice/map，将只有1个字段的slice/map展开，成为基本类型slice/map
+
+# consul地址
+consulAddress = "192.168.1.58:8500"
+consulPrefix = "fisher"
+
+# 枚举表
+enumFile = "xlsx/enum.xlsx"
+
+# 多语言表
+localeFile = "xlsx/多语言表.xlsx"
+
+# 数据表头几行忽略(表头)
+ignoreLine = 4
+
+# 时区偏移量(秒) 28800/60/60=+8时区
+offsetSeconds = 28800
+
+productId = 1 # 产品ID
+
+# Platform信息
+[[platformInfo]]
+env = "develop"
+address = "http://192.168.1.52:8000"
+token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+envType = 1
+
+[[platformInfo]]
+env = "test"
+address = "http://192.168.1.52:8000"
+token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+envType = 2
+
+[[platformInfo]]
+env = "audit"
+address = "http://192.168.1.52:8000"
+token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+envType = 5
+
+# ftp地址
+[ftpInfo]
+address = "192.168.1.51:21"
+path = "configs"
+user = "user00"
+pwd = "fancygame8888$"
+
+[template]
+name = "master"
+path = "xlsx"
+
+# 渠道信息
+# Google
+[[channel]]
+name = "google"
+id   = 1001
+path = "xlsx_channel/google"

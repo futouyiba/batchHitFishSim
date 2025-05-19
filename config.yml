@@ -1,0 +1,19 @@
+# server
+rpc_server_name: hookTool
+rpc_port: 12602
+
+# 日志相关
+log_level: debug
+log_write: true
+log_dir: ./logs/
+log_json: false
+
+# test consul
+consul_addr: 192.168.1.63:8500
+
+# config path
+hook_tool_config_path: config/data/1/1001/hook_tool_param.json
+
+
+tool_open: true # 开启工具
+channel_id: 1001 # 渠道id

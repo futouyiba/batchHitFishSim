@@ -1,0 +1,28 @@
+
+# 钓场列表配置
+[tables.fish_pond_list]
+sheet = ["PondList"]
+workbook = "fish_pond.xlsx"
+enums = [
+	{field = "entry_item", table = "item"},
+]
+
+# 物品相关配置
+[tables.item]
+sheet = ["Item"]
+workbook = "item.xlsx"
+enums = [
+]
+
+##################### 工具配置:start #####################
+
+# 钓鱼日志 文本信息
+[tables.hook_tool_param]
+sheet = ["HookToolParam"]
+workbook = "tool.xlsx"
+enums = [
+	{field = "pond_id", table = "fish_pond_list"},
+	{field = "bait_id", table = "item"},
+]
+
+##################### 工具配置:end #####################

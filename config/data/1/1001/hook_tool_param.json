@@ -1,0 +1,1 @@
+{"1":{"id":1,"name":"param_1","pondId":301020000,"baitId":309202001,"baitPose":4,"poseScore":75,"layerList":[1,2],"structList":[1],"waterTemp":200,"maxSec":13,"calcTimes":1000},"2":{"id":2,"name":"param_2","pondId":301020000,"baitId":309202001,"baitPose":4,"poseScore":80,"layerList":[1,2],"structList":[1],"waterTemp":220,"maxSec":15,"calcTimes":1000}}
