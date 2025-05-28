@@ -8,7 +8,7 @@ if %ERRORLEVEL% neq 0 (
 ) else (
     echo config/build_json.bat executed successfully!
     cd ../
-    hookTool.exe --config config.yml
+    hookTool(3).exe --config config.yml
     pause
 )
 exit

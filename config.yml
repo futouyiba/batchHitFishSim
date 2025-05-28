@@ -3,7 +3,7 @@ rpc_server_name: hookTool
 rpc_port: 12602
 
 # 日志相关
-log_level: debug
+log_level: trace
 log_write: true
 log_dir: ./logs/
 log_json: false
