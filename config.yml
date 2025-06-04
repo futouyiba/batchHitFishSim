@@ -3,7 +3,7 @@ rpc_server_name: hookTool
 rpc_port: 12602
 
 # 日志相关
-log_level: error
+log_level: trace
 log_write: true
 log_dir: ./logs/
 log_json: false
@@ -16,4 +16,4 @@ hook_tool_config_path: config/data/1/1001/hook_tool_param.json
 
 
 tool_open: true # 开启工具
-channel_id: 1001 # 渠道id
+channel_id: 2001 # 渠道id
