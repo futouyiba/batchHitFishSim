@@ -3,3 +3,4 @@
 tool_hook_fish_*.csv
 ~$*.xlsx
 tool_*.xlsx
+*.json
